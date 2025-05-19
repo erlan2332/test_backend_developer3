@@ -1,0 +1,8 @@
+[
+  "tests/test_main.py::test_base_cases",
+  "tests/test_main.py::test_known_values",
+  "tests/test_main.py::test_performance",
+  "tests/test_performance.py::test_performance",
+  "tests/test_unit.py::test_base_cases",
+  "tests/test_unit.py::test_known_values"
+]

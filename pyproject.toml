@@ -1,0 +1,21 @@
+[project]
+name            = "brackets-counter"
+version         = "0.1.0"
+description     = "Count well-formed parenthesis combinations (Catalan numbers)"
+readme          = "README.md"
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.2",
+    "pytest-benchmark>=4.0",
+    "ruff>=0.4",
+]
+
+# ── минимальная конфигурация под один файл main.py ───────────────
+[tool.setuptools]
+py-modules = ["main"]           # ← указываем, что нужно установить модуль main.py
+
+[build-system]
+requires      = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
